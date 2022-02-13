@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "de.test.Ddl2Md"
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = uri('https://repo.maven.apache.org/maven2/')
+    }
+}
+
+dependencies {
+    implementation 'com.github.jsqlparser:jsqlparser:4.3'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+group = 'de.test'
+version = '0-0-1'
+description = 'ddl2md'
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
