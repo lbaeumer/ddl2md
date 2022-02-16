@@ -55,20 +55,55 @@ public class Ddl2Md {
         if (statement instanceof CreateTable) {
 
             CreateTable create = (CreateTable) statement;
-            String name = create.getTable().getName();
-
             List<ColumnDefinition> columns = create.getColumnDefinitions();
 
-            writer.write("# " + name + "\r\n");
-            writer.write("\r\n");
-            writer.write("| Name | Type | Spec |\r\n");
-            writer.write("|---|---|---|\n");
+            writer.write("# " + create.getTable().getName() + "\r\n");
+
+            List<String> to = create.getTableOptionsStrings();
+            if (to.indexOf("COMMENT") > 0) {
+                String c = to.get(to.indexOf("COMMENT") + 2);
+                if (c.startsWith("'") && c.endsWith("'")) c = c.substring(1, c.length() - 1);
+                writer.write("\r\n" + c + "\r\n");
+            }
+
+
+            boolean foundComment = false;
             for (ColumnDefinition def : columns) {
+                if (def.toStringDataTypeAndSpec().indexOf("COMMENT") > 0) {
+                    foundComment = true;
+                    break;
+                }
+            }
+
+            writer.write("\r\n");
+            writer.write("| Name | Type | Spec |"
+                    + (foundComment ? " Kommentar |" : "")
+                    + "\r\n");
+            writer.write("|---|---|---|"
+                    + (foundComment ? "---|" : "")
+                    + "\n");
+
+            for (ColumnDefinition def : columns) {
+                String t = def.toStringDataTypeAndSpec().substring(def.getColDataType().toString().length() + 1)
+                        .replace("COLLATE utf8mb4_bin", "")
+                        .trim();
+
+                String comment = "";
+                if (t.indexOf("COMMENT") > 0) {
+                    comment = t.substring(t.indexOf("COMMENT") + 7).trim();
+
+                    t = t.substring(0, t.indexOf("COMMENT")).trim();
+                    if (comment.startsWith("'")) comment = comment.substring(1);
+                    if (comment.endsWith("'")) comment = comment.substring(0, comment.length() - 1).trim();
+                }
+
                 writer.write("| "
                         + def.getColumnName() + " | "
                         + def.getColDataType() + " | "
-                        + def.toStringDataTypeAndSpec().substring(def.getColDataType().toString().length() + 1)
-                        + " |\r\n");
+                        + t
+                        + " |"
+                        + (foundComment ? " " + comment + " |" : "")
+                        + "\r\n");
             }
             writer.write("\r\n\r\n");
         }
