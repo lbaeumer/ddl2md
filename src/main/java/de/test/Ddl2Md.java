@@ -34,7 +34,7 @@ public class Ddl2Md {
 
         try (FileWriter writer = new FileWriter(args[1])) {
 
-            Map<String, String> fkConstraints = new TreeMap<>();
+            Map<String, String[]> fkConstraints = new TreeMap<>();
             for (String s : lines) {getConstraints(s, fkConstraints);}
 
             fkConstraints.forEach((k, v) -> System.out.println(k + " -> " + v));
@@ -53,7 +53,7 @@ public class Ddl2Md {
         System.out.println("processed " + i + " ddl statements, failed " + failedCnt);
     }
 
-    private static void getConstraints(String tableDdl, Map<String, String> fkConstraints) throws JSQLParserException, IOException {
+    private static void getConstraints(String tableDdl, Map<String, String[]> fkConstraints) throws JSQLParserException, IOException {
         CCJSqlParserManager pm = new CCJSqlParserManager();
         Statement statement = pm.parse(new StringReader(tableDdl));
 
@@ -68,15 +68,17 @@ public class Ddl2Md {
                         if (refTo.toUpperCase(Locale.ROOT).indexOf("ON ") > 0) {
                             refTo = refTo.substring(0, refTo.toUpperCase(Locale.ROOT).indexOf("ON "));
                         }
-                        fkConstraints.put(create.getTable() + "/" + cp.getColumnName(), refTo);
+                        fkConstraints.put(create.getTable() + "/" + cp.getColumnName(),
+                                new String[] {refTo, i.toString() });
                     }
+                    System.out.println("i=" + i);
                 }
             }
         }
     }
 
     private static void handleTable(String tableDdl,
-                                    Map<String, String> fkConstraints,
+                                    Map<String, String[]> fkConstraints,
                                     Writer writer) throws JSQLParserException, IOException {
         CCJSqlParserManager pm = new CCJSqlParserManager();
 
@@ -101,7 +103,9 @@ public class Ddl2Md {
 
             boolean foundComment = false;
             for (ColumnDefinition def : columns) {
-                if (def.toStringDataTypeAndSpec().indexOf("COMMENT") > 0) {
+                if (def.toStringDataTypeAndSpec().indexOf("COMMENT") > 0
+                    || fkConstraints.get(
+                        create.getTable().getName() + "/" + def.getColumnName()) != null) {
                     foundComment = true;
                     break;
                 }
@@ -129,18 +133,38 @@ public class Ddl2Md {
                     if (comment.endsWith("'")) comment = comment.substring(0, comment.length() - 1).trim();
                 }
 
-                String targetTable = fkConstraints.get(create.getTable().getName() + "/" + def.getColumnName());
-                if (targetTable != null && targetTable.indexOf("(") > 0) targetTable = targetTable.substring(0, targetTable.indexOf("("));
+                String[] targetTable = fkConstraints.get(
+                        create.getTable().getName() + "/" + def.getColumnName()
+                );
+                String tt = null;
+                String tc = null;
+                if (targetTable != null) {
+                    if (targetTable[0].indexOf("(") > 0) {
+                        tt = targetTable[0].substring(0, targetTable[0].indexOf("("));
+                    }
+                    tc = targetTable[1];
+                    if (tc.indexOf("FOREIGN KEY") > 0) {
+                        tc = tc.substring(tc.indexOf("FOREIGN KEY"));
+                    }
+                    if (tc.indexOf(" ON ") > 0) {
+                        tc = tc.substring(0, tc.indexOf(" ON "));
+                    }
+                }
 
                 writer.write("| "
-                        + (targetTable != null ? "[" : "")
+                        + (tt != null ? "[" : "")
                         + def.getColumnName()
-                        + (targetTable != null ? "](#" + targetTable + ")" : "")
+                        + (tt != null ? "](#" + tt + ")" : "")
                         + " | "
                         + def.getColDataType() + " | "
                         + t
                         + " |"
-                        + (foundComment ? " " + comment + " |" : "")
+                        + (foundComment
+                            ? " "
+                                + comment
+                                + (tc != null ? tc : "") + " |"
+                            : ""
+                          )
                         + "\r\n");
             }
             writer.write("\r\n\r\n");
