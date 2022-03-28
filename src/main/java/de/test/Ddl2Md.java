@@ -89,7 +89,7 @@ public class Ddl2Md {
             CreateTable create = (CreateTable) statement;
             List<ColumnDefinition> columns = create.getColumnDefinitions();
 
-            writer.write("#" + create.getTable().getName() + "\r\n");
+            writer.write("# " + create.getTable().getName() + "\r\n");
 
             List<String> to = create.getTableOptionsStrings();
             if (to.indexOf("COMMENT") > 0) {

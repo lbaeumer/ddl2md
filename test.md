@@ -1,5 +1,5 @@
 
-#benutzergruppen
+# benutzergruppen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -9,7 +9,7 @@
 
 
 
-#credentials
+# credentials
 
 | Name | Type | Spec |
 |---|---|---|
@@ -24,7 +24,7 @@
 
 
 
-#eigeneschule_fachklassen
+# eigeneschule_fachklassen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -49,7 +49,7 @@
 
 
 
-#eigeneschule_faecher
+# eigeneschule_faecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -96,7 +96,7 @@
 
 
 
-#eigeneschule_kaoadaten
+# eigeneschule_kaoadaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -111,7 +111,7 @@
 
 
 
-#eigeneschule_kursart
+# eigeneschule_kursart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -126,7 +126,7 @@
 
 
 
-#eigeneschule_merkmale
+# eigeneschule_merkmale
 
 | Name | Type | Spec |
 |---|---|---|
@@ -138,7 +138,7 @@
 
 
 
-#eigeneschule_schulformen
+# eigeneschule_schulformen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -154,7 +154,7 @@
 
 
 
-#eigeneschule_teilstandorte
+# eigeneschule_teilstandorte
 
 | Name | Type | Spec |
 |---|---|---|
@@ -169,7 +169,7 @@
 
 
 
-#eigeneschule_texte
+# eigeneschule_texte
 
 | Name | Type | Spec |
 |---|---|---|
@@ -181,7 +181,7 @@
 
 
 
-#eigeneschule_zertifikate
+# eigeneschule_zertifikate
 
 | Name | Type | Spec |
 |---|---|---|
@@ -193,7 +193,7 @@
 
 
 
-#fach_gliederungen
+# fach_gliederungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -212,7 +212,7 @@
 
 
 
-#floskelgruppen
+# floskelgruppen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -223,7 +223,7 @@
 
 
 
-#gost_jahrgangsdaten
+# gost_jahrgangsdaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -237,7 +237,7 @@
 
 
 
-#impexp_eigeneimporte
+# impexp_eigeneimporte
 
 | Name | Type | Spec |
 |---|---|---|
@@ -257,7 +257,7 @@
 
 
 
-#impexp_eigeneimporte_felder
+# impexp_eigeneimporte_felder
 
 | Name | Type | Spec |
 |---|---|---|
@@ -281,7 +281,7 @@
 
 
 
-#impexp_eigeneimporte_tabellen
+# impexp_eigeneimporte_tabellen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -303,7 +303,7 @@
 
 
 
-#k_adressart
+# k_adressart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -315,7 +315,7 @@
 
 
 
-#k_ankreuzdaten
+# k_ankreuzdaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -329,7 +329,7 @@
 
 
 
-#k_beschaeftigungsart
+# k_beschaeftigungsart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -341,7 +341,7 @@
 
 
 
-#k_datenschutz
+# k_datenschutz
 
 | Name | Type | Spec |
 |---|---|---|
@@ -354,7 +354,7 @@
 
 
 
-#k_einschulungsart
+# k_einschulungsart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -366,7 +366,7 @@
 
 
 
-#k_einzelleistungen
+# k_einzelleistungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -378,7 +378,7 @@
 
 
 
-#k_entlassgrund
+# k_entlassgrund
 
 | Name | Type | Spec |
 |---|---|---|
@@ -390,7 +390,7 @@
 
 
 
-#k_erzieherart
+# k_erzieherart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -403,7 +403,7 @@
 
 
 
-#k_erzieherfunktion
+# k_erzieherfunktion
 
 | Name | Type | Spec |
 |---|---|---|
@@ -415,7 +415,7 @@
 
 
 
-#k_fahrschuelerart
+# k_fahrschuelerart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -427,7 +427,7 @@
 
 
 
-#k_foerderschwerpunkt
+# k_foerderschwerpunkt
 
 | Name | Type | Spec |
 |---|---|---|
@@ -440,7 +440,7 @@
 
 
 
-#k_haltestelle
+# k_haltestelle
 
 | Name | Type | Spec |
 |---|---|---|
@@ -453,7 +453,7 @@
 
 
 
-#k_kindergarten
+# k_kindergarten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -472,7 +472,7 @@
 
 
 
-#k_ort
+# k_ort
 
 | Name | Type | Spec |
 |---|---|---|
@@ -487,7 +487,7 @@
 
 
 
-#k_religion
+# k_religion
 
 | Name | Type | Spec |
 |---|---|---|
@@ -502,7 +502,7 @@
 
 
 
-#k_schule
+# k_schule
 
 | Name | Type | Spec |
 |---|---|---|
@@ -530,7 +530,7 @@
 
 
 
-#k_schulfunktionen
+# k_schulfunktionen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -541,7 +541,7 @@
 
 
 
-#k_schwerpunkt
+# k_schwerpunkt
 
 | Name | Type | Spec |
 |---|---|---|
@@ -553,7 +553,7 @@
 
 
 
-#k_sportbefreiung
+# k_sportbefreiung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -565,7 +565,7 @@
 
 
 
-#k_telefonart
+# k_telefonart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -577,7 +577,7 @@
 
 
 
-#k_textdateien
+# k_textdateien
 
 | Name | Type | Spec |
 |---|---|---|
@@ -590,7 +590,7 @@
 
 
 
-#k_vermerkart
+# k_vermerkart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -602,7 +602,7 @@
 
 
 
-#k_zertifikate
+# k_zertifikate
 
 | Name | Type | Spec |
 |---|---|---|
@@ -611,7 +611,7 @@
 
 
 
-#katalog_aufsichtsbereich
+# katalog_aufsichtsbereich
 
 | Name | Type | Spec |
 |---|---|---|
@@ -621,7 +621,7 @@
 
 
 
-#katalog_pausenzeiten
+# katalog_pausenzeiten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -632,7 +632,7 @@
 
 
 
-#katalog_raeume
+# katalog_raeume
 
 | Name | Type | Spec |
 |---|---|---|
@@ -643,7 +643,7 @@
 
 
 
-#katalog_zeitraster
+# katalog_zeitraster
 
 | Name | Type | Spec |
 |---|---|---|
@@ -655,7 +655,7 @@
 
 
 
-#kompetenzgruppen
+# kompetenzgruppen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -666,7 +666,7 @@
 
 
 
-#lernplattformen
+# lernplattformen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -679,7 +679,7 @@
 
 
 
-#personengruppen
+# personengruppen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -694,7 +694,7 @@
 
 
 
-#schildfilter
+# schildfilter
 
 | Name | Type | Spec |
 |---|---|---|
@@ -709,7 +709,7 @@
 
 
 
-#schildintern_abiturinfos
+# schildintern_abiturinfos
 
 | Name | Type | Spec |
 |---|---|---|
@@ -722,7 +722,7 @@
 
 
 
-#schildintern_berufsebene
+# schildintern_berufsebene
 
 | Name | Type | Spec |
 |---|---|---|
@@ -732,7 +732,7 @@
 
 
 
-#schildintern_datenart
+# schildintern_datenart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -743,7 +743,7 @@
 
 
 
-#schildintern_dqr_niveaus
+# schildintern_dqr_niveaus
 
 | Name | Type | Spec |
 |---|---|---|
@@ -753,7 +753,7 @@
 
 
 
-#schildintern_fachgruppen
+# schildintern_fachgruppen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -767,7 +767,7 @@
 
 
 
-#schildintern_faechersortierung
+# schildintern_faechersortierung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -781,7 +781,7 @@
 
 
 
-#schildintern_filterfehlendeeintraege
+# schildintern_filterfehlendeeintraege
 
 | Name | Type | Spec |
 |---|---|---|
@@ -795,7 +795,7 @@
 
 
 
-#schildintern_filterfeldliste
+# schildintern_filterfeldliste
 
 | Name | Type | Spec |
 |---|---|---|
@@ -810,7 +810,7 @@
 
 
 
-#schildintern_hschstatus
+# schildintern_hschstatus
 
 | Name | Type | Spec |
 |---|---|---|
@@ -822,7 +822,7 @@
 
 
 
-#schildintern_k_schulnote
+# schildintern_k_schulnote
 
 | Name | Type | Spec |
 |---|---|---|
@@ -838,7 +838,7 @@
 
 
 
-#schildintern_kaoa_anschlussoption
+# schildintern_kaoa_anschlussoption
 
 | Name | Type | Spec |
 |---|---|---|
@@ -852,7 +852,7 @@
 
 
 
-#schildintern_kaoa_berufsfeld
+# schildintern_kaoa_berufsfeld
 
 | Name | Type | Spec |
 |---|---|---|
@@ -864,7 +864,7 @@
 
 
 
-#schildintern_kaoa_kategorie
+# schildintern_kaoa_kategorie
 
 | Name | Type | Spec |
 |---|---|---|
@@ -877,7 +877,7 @@
 
 
 
-#schildintern_laender
+# schildintern_laender
 
 | Name | Type | Spec |
 |---|---|---|
@@ -887,7 +887,7 @@
 
 
 
-#schildintern_prfsemabschl
+# schildintern_prfsemabschl
 
 | Name | Type | Spec |
 |---|---|---|
@@ -900,7 +900,7 @@
 
 
 
-#schildintern_prueford_optionen
+# schildintern_prueford_optionen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -921,7 +921,7 @@
 
 
 
-#schildintern_pruefungsordnung
+# schildintern_pruefungsordnung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -935,7 +935,7 @@
 
 
 
-#schildintern_schuelerimpexp
+# schildintern_schuelerimpexp
 
 | Name | Type | Spec |
 |---|---|---|
@@ -952,7 +952,7 @@
 
 
 
-#schildintern_spezialfilterfelder
+# schildintern_spezialfilterfelder
 
 | Name | Type | Spec |
 |---|---|---|
@@ -975,7 +975,7 @@
 
 
 
-#schildintern_textexport
+# schildintern_textexport
 
 | Name | Type | Spec |
 |---|---|---|
@@ -991,7 +991,7 @@
 
 
 
-#schildintern_unicodeumwandlung
+# schildintern_unicodeumwandlung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1005,7 +1005,7 @@
 
 
 
-#schildintern_verfimportfelder
+# schildintern_verfimportfelder
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1026,7 +1026,7 @@
 
 
 
-#schildintern_verfimporttabellen
+# schildintern_verfimporttabellen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1047,7 +1047,7 @@
 
 
 
-#schildintern_zusatzinfos
+# schildintern_zusatzinfos
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1056,7 +1056,7 @@
 
 
 
-#schuelerliste
+# schuelerliste
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1067,7 +1067,7 @@
 
 
 
-#schulecredentials
+# schulecredentials
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1078,7 +1078,7 @@
 
 
 
-#schuljahresabschnitte
+# schuljahresabschnitte
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1090,7 +1090,7 @@
 
 
 
-#schulleitungfunktion
+# schulleitungfunktion
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1101,7 +1101,7 @@
 
 
 
-#schulver_dbs
+# schulver_dbs
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1154,7 +1154,7 @@
 
 
 
-#schulver_schulformen
+# schulver_schulformen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1166,7 +1166,7 @@
 
 
 
-#schulver_schultraeger
+# schulver_schultraeger
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1197,7 +1197,7 @@
 
 
 
-#schulver_weiteresf
+# schulver_weiteresf
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1207,7 +1207,7 @@
 
 
 
-#statkue_abgangsart
+# statkue_abgangsart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1223,7 +1223,7 @@
 
 
 
-#statkue_allgmerkmale
+# statkue_allgmerkmale
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1240,7 +1240,7 @@
 
 
 
-#statkue_anderegrundschulen
+# statkue_anderegrundschulen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1255,7 +1255,7 @@
 
 
 
-#statkue_bilingual
+# statkue_bilingual
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1266,7 +1266,7 @@
 
 
 
-#statkue_einschulungsart
+# statkue_einschulungsart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1277,7 +1277,7 @@
 
 
 
-#statkue_fachklasse
+# statkue_fachklasse
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1304,7 +1304,7 @@
 
 
 
-#statkue_foerderschwerpunkt
+# statkue_foerderschwerpunkt
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1316,7 +1316,7 @@
 
 
 
-#statkue_gliederung
+# statkue_gliederung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1330,7 +1330,7 @@
 
 
 
-#statkue_herkunftsart
+# statkue_herkunftsart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1343,7 +1343,7 @@
 
 
 
-#statkue_herkunftsschulform
+# statkue_herkunftsschulform
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1355,7 +1355,7 @@
 
 
 
-#statkue_lehrerabgang
+# statkue_lehrerabgang
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1369,7 +1369,7 @@
 
 
 
-#statkue_lehreranrechnung
+# statkue_lehreranrechnung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1384,7 +1384,7 @@
 
 
 
-#statkue_lehrerbeschaeftigungsart
+# statkue_lehrerbeschaeftigungsart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1397,7 +1397,7 @@
 
 
 
-#statkue_lehrereinsatzstatus
+# statkue_lehrereinsatzstatus
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1410,7 +1410,7 @@
 
 
 
-#statkue_lehrerfachranerkennung
+# statkue_lehrerfachranerkennung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1423,7 +1423,7 @@
 
 
 
-#statkue_lehrerfachrichtung
+# statkue_lehrerfachrichtung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1436,7 +1436,7 @@
 
 
 
-#statkue_lehrerlehramt
+# statkue_lehrerlehramt
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1449,7 +1449,7 @@
 
 
 
-#statkue_lehrerlehramtanerkennung
+# statkue_lehrerlehramtanerkennung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1462,7 +1462,7 @@
 
 
 
-#statkue_lehrerlehrbefaehigung
+# statkue_lehrerlehrbefaehigung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1475,7 +1475,7 @@
 
 
 
-#statkue_lehrerlehrbefanerkennung
+# statkue_lehrerlehrbefanerkennung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1488,7 +1488,7 @@
 
 
 
-#statkue_lehrermehrleistung
+# statkue_lehrermehrleistung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1501,7 +1501,7 @@
 
 
 
-#statkue_lehrerminderleistung
+# statkue_lehrerminderleistung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1514,7 +1514,7 @@
 
 
 
-#statkue_lehrerrechtsverhaeltnis
+# statkue_lehrerrechtsverhaeltnis
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1527,7 +1527,7 @@
 
 
 
-#statkue_lehrerzugang
+# statkue_lehrerzugang
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1541,7 +1541,7 @@
 
 
 
-#statkue_nationalitaeten
+# statkue_nationalitaeten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1555,7 +1555,7 @@
 
 
 
-#statkue_organisationsform
+# statkue_organisationsform
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1568,7 +1568,7 @@
 
 
 
-#statkue_plzort
+# statkue_plzort
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1580,7 +1580,7 @@
 
 
 
-#statkue_reformpaedagogik
+# statkue_reformpaedagogik
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1591,7 +1591,7 @@
 
 
 
-#statkue_religionen
+# statkue_religionen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1601,7 +1601,7 @@
 
 
 
-#statkue_schuelerersteschulformseki
+# statkue_schuelerersteschulformseki
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1616,7 +1616,7 @@
 
 
 
-#statkue_schuelerkindergartenbesuch
+# statkue_schuelerkindergartenbesuch
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1630,7 +1630,7 @@
 
 
 
-#statkue_schueleruebergangsempfehlung5jg
+# statkue_schueleruebergangsempfehlung5jg
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1645,7 +1645,7 @@
 
 
 
-#statkue_schuelerverkehrssprache
+# statkue_schuelerverkehrssprache
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1658,7 +1658,7 @@
 
 
 
-#statkue_schulformen
+# statkue_schulformen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1671,7 +1671,7 @@
 
 
 
-#statkue_strassen
+# statkue_strassen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1682,7 +1682,7 @@
 
 
 
-#statkue_svws_bkanlagen
+# statkue_svws_bkanlagen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1691,7 +1691,7 @@
 
 
 
-#statkue_svws_fachgruppen
+# statkue_svws_fachgruppen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1709,7 +1709,7 @@
 
 
 
-#statkue_svws_schulgliederungen
+# statkue_svws_schulgliederungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1728,7 +1728,7 @@
 
 
 
-#statkue_svws_sprachpruefungniveaus
+# statkue_svws_sprachpruefungniveaus
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1741,7 +1741,7 @@
 
 
 
-#statkue_svws_zulaessigefaecher
+# statkue_svws_zulaessigefaecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1767,7 +1767,7 @@
 
 
 
-#statkue_svws_zulaessigejahrgaenge
+# statkue_svws_zulaessigejahrgaenge
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1783,7 +1783,7 @@
 
 
 
-#statkue_svws_zulaessigekursarten
+# statkue_svws_zulaessigekursarten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1801,7 +1801,7 @@
 
 
 
-#statkue_zulfaecher
+# statkue_zulfaecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1818,7 +1818,7 @@
 
 
 
-#statkue_zuljahrgaenge
+# statkue_zuljahrgaenge
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1833,7 +1833,7 @@
 
 
 
-#statkue_zulklart
+# statkue_zulklart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1845,7 +1845,7 @@
 
 
 
-#statkue_zulkuart
+# statkue_zulkuart
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1861,7 +1861,7 @@
 
 
 
-#stundentafel
+# stundentafel
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1876,7 +1876,7 @@
 
 
 
-#svws_client_konfiguration_global
+# svws_client_konfiguration_global
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1886,7 +1886,7 @@
 
 
 
-#svws_db_autoinkremente
+# svws_db_autoinkremente
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1895,7 +1895,7 @@
 
 
 
-#svws_db_version
+# svws_db_version
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1904,7 +1904,7 @@
 
 
 
-#textexportvorlagen
+# textexportvorlagen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1913,7 +1913,7 @@
 
 
 
-#usergroups
+# usergroups
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1924,7 +1924,7 @@
 
 
 
-#users
+# users
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1945,7 +1945,7 @@
 
 
 
-#benutzerallgemein
+# benutzerallgemein
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1955,7 +1955,7 @@
 
 
 
-#credentialslernplattformen
+# credentialslernplattformen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -1971,7 +1971,7 @@
 
 
 
-#eigeneschule
+# eigeneschule
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2028,7 +2028,7 @@
 
 
 
-#eigeneschule_fachteilleistungen
+# eigeneschule_fachteilleistungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2038,7 +2038,7 @@
 
 
 
-#eigeneschule_jahrgaenge
+# eigeneschule_jahrgaenge
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2059,7 +2059,7 @@
 
 
 
-#floskeln
+# floskeln
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2072,7 +2072,7 @@
 
 
 
-#gost_jahrgang_fachkombinationen
+# gost_jahrgang_fachkombinationen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2087,7 +2087,7 @@
 
 
 
-#gost_jahrgang_faecher
+# gost_jahrgang_faecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2110,7 +2110,7 @@
 
 
 
-#k_allgadresse
+# k_allgadresse
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2144,7 +2144,7 @@
 
 
 
-#k_ankreuzfloskeln
+# k_ankreuzfloskeln
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2162,7 +2162,7 @@
 
 
 
-#k_ortsteil
+# k_ortsteil
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2177,7 +2177,7 @@
 
 
 
-#klassen
+# klassen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2204,7 +2204,7 @@
 
 
 
-#kompetenzen
+# kompetenzen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2214,7 +2214,7 @@
 
 
 
-#kurse
+# kurse
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2239,7 +2239,7 @@
 
 
 
-#logins
+# logins
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2249,7 +2249,7 @@
 
 
 
-#nichtmoeglabifachkombi
+# nichtmoeglabifachkombi
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2264,7 +2264,7 @@
 
 
 
-#personengruppen_personen
+# personengruppen_personen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2291,7 +2291,7 @@
 
 
 
-#schild_verwaltung
+# schild_verwaltung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2310,7 +2310,7 @@
 
 
 
-#schildintern_kaoa_merkmal
+# schildintern_kaoa_merkmal
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2326,7 +2326,7 @@
 
 
 
-#schildintern_kaoa_zusatzmerkmal
+# schildintern_kaoa_zusatzmerkmal
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2341,7 +2341,7 @@
 
 
 
-#schueler
+# schueler
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2480,7 +2480,7 @@
 
 
 
-#schuelerabgaenge
+# schuelerabgaenge
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2507,7 +2507,7 @@
 
 
 
-#schuelerabifaecher
+# schuelerabifaecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2559,7 +2559,7 @@
 
 
 
-#schuelerabitur
+# schuelerabitur
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2603,7 +2603,7 @@
 
 
 
-#schuelerbkabschluss
+# schuelerbkabschluss
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2625,7 +2625,7 @@
 
 
 
-#schuelerbkfaecher
+# schuelerbkfaecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2650,7 +2650,7 @@
 
 
 
-#schuelerdatenschutz
+# schuelerdatenschutz
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2660,7 +2660,7 @@
 
 
 
-#schuelererzadr
+# schuelererzadr
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2695,7 +2695,7 @@
 
 
 
-#schuelerfhr
+# schuelerfhr
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2740,7 +2740,7 @@
 
 
 
-#schuelerfhrfaecher
+# schuelerfhrfaecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2785,7 +2785,7 @@
 
 
 
-#schuelerfotos
+# schuelerfotos
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2794,7 +2794,7 @@
 
 
 
-#schuelergsdaten
+# schuelergsdaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2820,7 +2820,7 @@
 
 
 
-#schuelerlernplattform
+# schuelerlernplattform
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2834,7 +2834,7 @@
 
 
 
-#schuelerliste_inhalt
+# schuelerliste_inhalt
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2843,7 +2843,7 @@
 
 
 
-#schuelermerkmale
+# schuelermerkmale
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2855,7 +2855,7 @@
 
 
 
-#schuelerreportvorlagen
+# schuelerreportvorlagen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2865,7 +2865,7 @@
 
 
 
-#schuelersprachenfolge
+# schuelersprachenfolge
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2885,7 +2885,7 @@
 
 
 
-#schuelersprachpruefungen
+# schuelersprachpruefungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2904,7 +2904,7 @@
 
 
 
-#schuelertelefone
+# schuelertelefone
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2918,7 +2918,7 @@
 
 
 
-#schuelervermerke
+# schuelervermerke
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2932,7 +2932,7 @@
 
 
 
-#schuelerwiedervorlage
+# schuelerwiedervorlage
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2949,7 +2949,7 @@
 
 
 
-#schuelerzp10
+# schuelerzp10
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2967,7 +2967,7 @@
 
 
 
-#stundenplan
+# stundenplan
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2979,7 +2979,7 @@
 
 
 
-#stundenplan_aufsichtsbereiche
+# stundenplan_aufsichtsbereiche
 
 | Name | Type | Spec |
 |---|---|---|
@@ -2990,7 +2990,7 @@
 
 
 
-#stundenplan_pausenzeit
+# stundenplan_pausenzeit
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3002,7 +3002,7 @@
 
 
 
-#stundenplan_raeume
+# stundenplan_raeume
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3014,7 +3014,7 @@
 
 
 
-#stundenplan_zeitraster
+# stundenplan_zeitraster
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3027,7 +3027,7 @@
 
 
 
-#stundentafel_faecher
+# stundentafel_faecher
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3044,7 +3044,7 @@
 
 
 
-#svws_client_konfiguration_benutzer
+# svws_client_konfiguration_benutzer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3055,7 +3055,7 @@
 
 
 
-#zuordnungreportvorlagen
+# zuordnungreportvorlagen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3073,7 +3073,7 @@
 
 
 
-#allgadransprechpartner
+# allgadransprechpartner
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3090,7 +3090,7 @@
 
 
 
-#benutzergruppenkompetenzen
+# benutzergruppenkompetenzen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3099,7 +3099,7 @@
 
 
 
-#erzieherdatenschutz
+# erzieherdatenschutz
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3109,7 +3109,7 @@
 
 
 
-#erzieherlernplattform
+# erzieherlernplattform
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3123,7 +3123,7 @@
 
 
 
-#gost_schueler
+# gost_schueler
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3141,7 +3141,7 @@
 
 
 
-#gost_schueler_fachwahlen
+# gost_schueler_fachwahlen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3171,7 +3171,7 @@
 
 
 
-#k_lehrer
+# k_lehrer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3239,7 +3239,7 @@
 
 
 
-#klassenlehrer
+# klassenlehrer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3249,7 +3249,7 @@
 
 
 
-#kurs_schueler
+# kurs_schueler
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3258,7 +3258,7 @@
 
 
 
-#kurslehrer
+# kurslehrer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3268,7 +3268,7 @@
 
 
 
-#lehrerabschnittsdaten
+# lehrerabschnittsdaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3287,7 +3287,7 @@
 
 
 
-#lehreranrechnung
+# lehreranrechnung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3298,7 +3298,7 @@
 
 
 
-#lehrerdatenschutz
+# lehrerdatenschutz
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3308,7 +3308,7 @@
 
 
 
-#lehrerentlastung
+# lehrerentlastung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3319,7 +3319,7 @@
 
 
 
-#lehrerfotos
+# lehrerfotos
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3328,7 +3328,7 @@
 
 
 
-#lehrerfunktionen
+# lehrerfunktionen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3338,7 +3338,7 @@
 
 
 
-#lehrerlehramt
+# lehrerlehramt
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3348,7 +3348,7 @@
 
 
 
-#lehrerlehramtfachr
+# lehrerlehramtfachr
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3358,7 +3358,7 @@
 
 
 
-#lehrerlehramtlehrbef
+# lehrerlehramtlehrbef
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3368,7 +3368,7 @@
 
 
 
-#lehrerlernplattform
+# lehrerlernplattform
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3382,7 +3382,7 @@
 
 
 
-#lehrermehrleistung
+# lehrermehrleistung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3393,7 +3393,7 @@
 
 
 
-#schildintern_kaoa_sbo_ebene4
+# schildintern_kaoa_sbo_ebene4
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3407,7 +3407,7 @@
 
 
 
-#schueler_allgadr
+# schueler_allgadr
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3426,7 +3426,7 @@
 
 
 
-#schuelerlernabschnittsdaten
+# schuelerlernabschnittsdaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3499,7 +3499,7 @@
 
 
 
-#schuelerzuweisungen
+# schuelerzuweisungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3509,7 +3509,7 @@
 
 
 
-#schulleitung
+# schulleitung
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3522,7 +3522,7 @@
 
 
 
-#stundenplan_pausenaufsichten
+# stundenplan_pausenaufsichten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3533,7 +3533,7 @@
 
 
 
-#stundenplan_pausenaufsichtenbereich
+# stundenplan_pausenaufsichtenbereich
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3543,7 +3543,7 @@
 
 
 
-#stundenplan_unterricht
+# stundenplan_unterricht
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3556,7 +3556,7 @@
 
 
 
-#stundenplan_unterrichtlehrer
+# stundenplan_unterrichtlehrer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3566,7 +3566,7 @@
 
 
 
-#stundenplan_unterrichtraum
+# stundenplan_unterrichtraum
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3576,7 +3576,7 @@
 
 
 
-#benutzer
+# benutzer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3590,7 +3590,7 @@
 
 
 
-#benutzeremail
+# benutzeremail
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3605,7 +3605,7 @@
 
 
 
-#benutzergruppenmitglieder
+# benutzergruppenmitglieder
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3614,7 +3614,7 @@
 
 
 
-#benutzerkompetenzen
+# benutzerkompetenzen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3623,7 +3623,7 @@
 
 
 
-#eigeneschule_abteilungen
+# eigeneschule_abteilungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3639,7 +3639,7 @@
 
 
 
-#gost_jahrgang_beratungslehrer
+# gost_jahrgang_beratungslehrer
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3648,7 +3648,7 @@
 
 
 
-#schuelerankreuzfloskeln
+# schuelerankreuzfloskeln
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3663,7 +3663,7 @@
 
 
 
-#schuelerfehlstunden
+# schuelerfehlstunden
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3679,7 +3679,7 @@
 
 
 
-#schuelerkaoadaten
+# schuelerkaoadaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3696,7 +3696,7 @@
 
 
 
-#schuelerld_psfachbem
+# schuelerld_psfachbem
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3711,7 +3711,7 @@
 
 
 
-#schuelerleistungsdaten
+# schuelerleistungsdaten
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3749,7 +3749,7 @@
 
 
 
-#eigeneschule_abt_kl
+# eigeneschule_abt_kl
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3760,7 +3760,7 @@
 
 
 
-#schuelereinzelleistungen
+# schuelereinzelleistungen
 
 | Name | Type | Spec |
 |---|---|---|
@@ -3774,7 +3774,7 @@
 
 
 
-#schuelerfoerderempfehlungen
+# schuelerfoerderempfehlungen
 
 | Name | Type | Spec |
 |---|---|---|
